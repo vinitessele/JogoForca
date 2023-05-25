@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jogo da Forca</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Jogo da Forca</h1>
+    </header>
+    <section>
+        <div id="JV">
+            <img id="boneco" src="img/s0.png" title="Jogo da Forca" alt="forca">
+                <p id="tipo"></p>
+                <div id="dvFrase"></div>
+                  
+                <div id="dvErro">
+                    <p id="errosCont" class="erros">Erros:&nbsp;</p>
+                    <p id="erros" class="erros"></p><br>
+                    <input oninput="clicou(this)" id="cmpTxt" type="text" value=""><br>
+                    <button onclick="window.location.reload()">Recomeçar</button>
+                </div>            
+        </div>
+        
+   </section>
+    <footer>
+        <p>© Alunos de Tads Univel</p>
+    </footer>    
+    <script src="js/javaScript.js"></script>    
+</body>
+</html>
